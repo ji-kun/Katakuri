@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ReactFullpage from '@fullpage/react-fullpage';
 
 ReactDOM.render(
   <React.StrictMode>
