@@ -1,0 +1,39 @@
+.header{
+    width:  100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    padding: 20px;
+}
+.container{
+    width: 95%;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.links{
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 200;
+}
+.contact {
+    align-self: flex-end;
+}
+
+.hamburger{
+    float: right;
+    height: 30px;
+    /* margin-right: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.line{
+    width: 42px;
+    height: 5px;
+
+    background: #F065A7;
+    border-radius: 50px;
+}

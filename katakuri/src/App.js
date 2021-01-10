@@ -8,6 +8,8 @@ import Home from './Home/Home';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>
+          {/* <Header /> */}
           <div className="section">
             <Home />
           </div>
@@ -31,6 +34,7 @@ function App() {
           <div className="section">
             <Contact />
           </div>
+          {/* <Footer /> */}
         </ReactFullpage.Wrapper>
       );
     }}

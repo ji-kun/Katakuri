@@ -2,9 +2,13 @@ import React from 'react';
 import styles from './Home.module.css';
 import Me from '../assets/me.png';
 
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+
 function Home() {
     return(
         <div className={styles.common}>
+            <Header />
             <h1 className={styles.hello}>hello.</h1>
             <div className={styles.container}>
                 <img className={styles.picture} src={Me} />
@@ -28,6 +32,7 @@ function Home() {
                     Download Resume
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

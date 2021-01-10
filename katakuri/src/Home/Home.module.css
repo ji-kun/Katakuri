@@ -8,8 +8,10 @@
     width: 100%;
     background: #2B2F32;
     color: #ffffff;
-    -webkit-backface-visibility: hidden;
     display: flex;
+}
+.header{
+    width: 100%;
 }
 .hello {
     height: 10%;
@@ -140,5 +142,5 @@
 }
 .resume:hover {
     transform: scale(1.1);
-    transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.3s;
 }
