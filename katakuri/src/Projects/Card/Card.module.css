@@ -1,0 +1,28 @@
+.cardContainer {
+    display: flex;
+    margin-right: 20px;
+}
+
+.description {
+    margin-left: 30px;
+}
+
+.desc {
+    text-transform: uppercase;
+    color: #dddddd;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+
+.dates {
+    font-size: 16px;
+    font-weight: normal;
+    color: #f065a7;
+}
+
+.task {
+    font-weight: normal;
+    font-size: 18px;
+    color: #dddddd;
+}

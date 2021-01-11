@@ -7,10 +7,36 @@
     width: 100%;
     background: #2B2F32;
     color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.myprojects {
     display: flex;
     justify-content: center;
-    align-content: center;
     align-items: center;
-    font-size: 50px;
-    font-weight: 500;
+    align-content: center;
+    height: 25%;
+    width: 100%;
+    font-size: 85px;
+    font-weight: 400;
+}
+
+.divisions {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+    height: 70%;
+}
+
+.cards {
+   width: 45%;
 }
