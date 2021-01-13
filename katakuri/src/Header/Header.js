@@ -5,6 +5,7 @@ function Header() {
     return(
         <div className={styles.header}>
             <div className={styles.container}>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href = "#"  className={styles.home}>
                     <h3 className={styles.links}>Home</h3>
                 </a>

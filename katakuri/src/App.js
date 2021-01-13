@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 import './App.css';
 import ReactFullpage from '@fullpage/react-fullpage';
@@ -8,8 +7,8 @@ import Home from './Home/Home';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
-import Header from './Header/Header';
-import Footer from './Footer/Footer';
+// import Header from './Header/Header';
+// import Footer from './Footer/Footer';
 
 function App() {
   return (
