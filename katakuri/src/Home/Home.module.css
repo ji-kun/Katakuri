@@ -144,3 +144,93 @@
     transform: scale(1.1);
     transition: all ease-in-out 0.3s;
 }
+
+@media screen and (max-width: 640px) {
+    .hello{
+        font-size: 65px;
+        top: 400px;
+        left: 40px;
+    }
+    .container{
+        left: 65px;
+    }
+    .picture{
+        height: 500px;
+    }
+
+.blocks {
+    position: relative;
+    left: -150px;
+    height: 100%;
+    width: auto;
+    z-index: 2;
+    /* background: rgba(216, 54, 130, 0.6); */
+    display: flex;
+}
+.block1 {
+    height: 100%;
+    width: 20px;
+    z-index: 2;
+    background: rgba(216, 54, 130, 0.6);
+}
+.block3 {
+    height: 100%;
+    width: 80px;
+    z-index: 2;
+    background: rgba(216, 54, 130, 0.6);
+}
+.block5 {
+    height: 100%;
+    width: 30px;
+    z-index: 2;
+    background: rgba(216, 54, 130, 0.6);
+}
+.block0 {
+    height: 100%;
+    width: 30px;
+    z-index: 2;
+    opacity: 0;
+}
+.block2 {
+    height: 100%;
+    width: 10px;
+    z-index: 2;
+    opacity: 0;
+}
+.block4 {
+    height: 100%;
+    width: 5px;
+    z-index: 2;
+    opacity: 0.1;
+}
+.textContain{
+    display: none;
+}
+.spacer{
+    display: none;
+}
+.rohit{
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    font-size: 24px;
+}
+.underline{
+    z-index: 2;
+    position: absolute;
+    top: 140px;
+    left: 230px;
+    width: 90px;
+    height: 2px;
+}
+.resume{
+    z-index: 2;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    width: 320px;
+    height: 65px;
+    font-size: 18px;
+}
+}

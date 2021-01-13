@@ -23,12 +23,20 @@ function About() {
                     <h1 className={styles.hello}>about me.</h1>
                     <div><h1 className={styles.rohit}>ROHIT KUNJI</h1></div>
                     <div className={styles.underline}></div>
-                    <h3 className={styles.roles}>DEVELOPER | DESIGNER | BLOCKCHAIN ENTHUSIAST</h3>
-                    <h4 className={styles.college}>
-                        Persuing an Integrated Post Graduation Course at  
-                        <a href="https://www.iiitm.ac.in/index.php/en/" className={styles.hyper}>
-                         ABV IIITM Gwalior. </a>
-                    </h4>
+                    <div className={styles.custom}><div className={styles.imageContainerMobile} >
+                        <img src={pic} className={styles.imageMobile} alt="me" />
+                    </div>
+                    <div className={styles.custom2}>
+                        <h3 className={styles.roles}>
+                            DEVELOPER | DESIGNER | BLOCKCHAIN ENTHUSIAST
+                        </h3>
+                        <h4 className={styles.college}>
+                            Persuing an Integrated Post Graduation Course at  
+                            <a href="https://www.iiitm.ac.in/index.php/en/" className={styles.hyper}>
+                            ABV IIITM Gwalior. </a>
+                        </h4>
+                        </div>
+                    </div>
                     <div className={styles.experience}>
                         <div className={styles.thumbstack}>
                             <h2 className={styles.desc}>UI UX DEVELOPER INTERN</h2>

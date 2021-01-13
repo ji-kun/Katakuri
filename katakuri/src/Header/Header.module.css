@@ -37,3 +37,29 @@ a{
     background: #F065A7;
     border-radius: 50px;
 }
+.line2{
+    width: 25px;
+    height: 5px;
+    align-self: flex-end;
+    background: #F065A7;
+    border-radius: 50px;
+}
+@media screen and (max-width: 640px) {
+    .header{
+        width: 100%;
+        display: flex;
+    }
+    .container{
+        display: none;
+    }
+    .hamburger{
+        margin-left: 320px;
+        height: 25px;
+    }
+    .line{
+        height: 4px;
+    }
+    .line2{
+        height: 4px;
+    }
+}

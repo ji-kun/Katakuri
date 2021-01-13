@@ -38,13 +38,13 @@ function Contact() {
                         <div><h1 className={styles.rohit}>SOCIAL</h1></div>
                         <div className={styles.underline}></div>
                         <div className={styles.imageContainer}>
-                            <a href="https://github.com/ji-kun">
+                            <a href="https://www.instagram.com/rohitkunji/">
                                 <img src={instagram} className={styles.logo} alt="insta" />
                             </a>
-                            <a href="https://dribbble.com/RohitKunji">
+                            <a href="https://www.facebook.com/rohit.kunji">
                             <img src={facebook} className={styles.logo} alt="facebook" />
                             </a>
-                            <a href="https://www.linkedin.com/in/rohitkunji/">
+                            <a href="https://www.twitter.com">
                             <img src={twitter} className={styles.logo} alt="twitter" />
                             </a>
                             <a href="https://www.facebook.com/rohit.kunji">

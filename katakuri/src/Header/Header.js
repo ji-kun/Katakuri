@@ -21,7 +21,7 @@ function Header() {
             </div>
             <div className={styles.hamburger}>
                     <div className={styles.line}></div>
-                    <div className={styles.line}></div>
+                    <div className={styles.line2}></div>
                     <div className={styles.line}></div>
                 </div>
         </div>

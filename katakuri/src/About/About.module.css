@@ -151,9 +151,127 @@
     transform: scale(1.1);
     transition: all ease-in-out 0.3s;
 }
+.imageContainerMobile{
+    display: none;
+}
 
 @keyframes rotate {
     100% {
         transform: rotate(90deg);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .rect{
+        height: min-content;
+        width: min-content;
+        position: fixed;
+        left: 300px;
+        top: 920px;
+        z-index: 2;
+    }
+    .rectangle{
+        height: 50px;
+        width: 50px;
+    }
+    .aboutContainer{
+        flex-direction: column;
+    }
+    .imageContainer{
+        display: none;
+    }
+    .image{
+        display: none;
+    }
+    .imageContainerMobile{
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 0px;
+        display: flex;
+    }
+    .imageMobile{
+        height: 220px;
+        margin:0
+    }
+    .hello{
+        font-size: 40px;
+        margin-left: 30px;
+    }
+    .rohit{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .underline{
+        position: relative;
+        width: 100px;
+        height: 2px;
+        left: 110px;
+        top: 7px;
+        background: #F065A7;
+    }
+    .roles{
+        width: 140px;
+        margin-left: -60px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .college{
+        font-size: 14px;
+        line-height: 22px;
+        margin-left: -60px;
+        width: 160px;
+    }
+    .experience{
+        width: 350px;
+        flex-direction: column;
+        padding: 0%;
+        margin-top: -100px;
+        position: relative;
+        left: 30px;
+        
+    }
+    .thumbstack{
+        width: 100%;
+        padding: 0%;
+        margin: 0;
+    }
+    .tantra{
+        margin-top: 40px;
+        width: auto;
+    }
+    .desc{
+        font-size: 14px;
+    }
+    .dates{
+        font-size: 9px;
+    }
+    .task{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    .spacer{
+        height: 30px;
+    }
+    .custom{
+        display: flex;
+    }
+    .custom2{
+
+    }
+    .resume{
+        position: absolute;
+        width: 320px;
+        height: 55px;
+        left: 50px;
+        bottom: 75px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        font-size: 17px;
+        background: #F065A7;
+        box-shadow: 4px 7px 10px rgba(181, 0, 86, 0.25);
+        border-radius: 3px;
     }
 }
