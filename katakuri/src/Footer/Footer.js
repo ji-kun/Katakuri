@@ -11,16 +11,16 @@ function Footer() {
         <div className={styles.footer}>
             <div className={styles.imageContainer}>
                 <a href="https://github.com/ji-kun">
-                    <img src={github} className={styles.logo} />
+                    <img src={github} className={styles.logo} alt="github" />
                 </a>
                 <a href="https://dribbble.com/RohitKunji">
-                <img src={dribbble} className={styles.logo} />
+                <img src={dribbble} className={styles.logo} alt="dribbble" />
                 </a>
                 <a href="https://www.linkedin.com/in/rohitkunji/">
-                <img src={linkedin} className={styles.logo} />
+                <img src={linkedin} className={styles.logo} alt="linkedin" />
                 </a>
                 <a href="https://www.facebook.com/rohit.kunji">
-                    <img src={fb} className={styles.logo} />
+                    <img src={fb} className={styles.logo} alt="fb" />
                 </a>
             </div>
         </div>

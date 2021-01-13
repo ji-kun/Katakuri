@@ -39,16 +39,16 @@ function Contact() {
                         <div className={styles.underline}></div>
                         <div className={styles.imageContainer}>
                             <a href="https://github.com/ji-kun">
-                                <img src={instagram} className={styles.logo} />
+                                <img src={instagram} className={styles.logo} alt="insta" />
                             </a>
                             <a href="https://dribbble.com/RohitKunji">
-                            <img src={facebook} className={styles.logo} />
+                            <img src={facebook} className={styles.logo} alt="facebook" />
                             </a>
                             <a href="https://www.linkedin.com/in/rohitkunji/">
-                            <img src={twitter} className={styles.logo} />
+                            <img src={twitter} className={styles.logo} alt="twitter" />
                             </a>
                             <a href="https://www.facebook.com/rohit.kunji">
-                                <img src={telegram} className={styles.logo} />
+                                <img src={telegram} className={styles.logo} alt="telegram" />
                             </a>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ function Contact() {
                         <div><h1 className={styles.rohit}>ADDRESS</h1></div>
                         <div className={styles.underline}></div>
                         <a className={styles.mapContainer} href="https://www.google.com/maps/place/CGS+Colony+Wadala/@19.0821978,72.7411023,11z/data=!4m5!3m4!1s0x3be7cf51ed33881f:0xfa268f076cf5e19!8m2!3d19.0167877!4d72.8571378">
-                            <img src={map} className={styles.map} />
+                            <img src={map} className={styles.map} alt="map" />
                         </a>
                     </div>
                 </div>

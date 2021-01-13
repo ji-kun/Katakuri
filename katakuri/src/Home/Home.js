@@ -11,7 +11,7 @@ function Home() {
             <Header />
             <h1 className={styles.hello}>hello.</h1>
             <div className={styles.container}>
-                <img className={styles.picture} src={Me} />
+                <img className={styles.picture} src={Me} alt="alsome" />
             </div>
             <div className={styles.blocks}>
                 <div className={styles.block0}></div>

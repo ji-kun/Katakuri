@@ -11,11 +11,11 @@ function About() {
         <div className={styles.common}>
             <Header />
             <div className={styles.rect}>
-                <img src={rect} className={styles.rectangle} />
+                <img src={rect} className={styles.rectangle} alt="dots" />
             </div>
             <div className={styles.aboutContainer}>
                 <div className={styles.imageContainer} >
-                    <img src={pic} className={styles.image} />
+                    <img src={pic} className={styles.image} alt="me" />
                 </div>
                 
                 <div className={styles.textContainer} >
