@@ -12,6 +12,11 @@ function Projects() {
             <div className={styles.container}>
                 <div className={styles.myprojects}>
                     my projects.
+                    {/* <a href="../assets/cv-yellow.pdf" download>
+                        <div className={styles.resume}>
+                            Download Resume
+                        </div>
+                    </a> */}
                 </div>
                 <div className={styles.divisions}>
                     <div className={styles.cards}> 

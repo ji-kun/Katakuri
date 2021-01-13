@@ -50,7 +50,11 @@ function About() {
                         </div>
                     </div>
                 </div>
-
+                <a href="../assets/cv-yellow.pdf" download>
+                    <div className={styles.resume}>
+                        Download Resume
+                    </div>
+                </a>
             </div>
             <Footer />
         </div>

@@ -8,13 +8,13 @@ function Header() {
                 <a href = "#"  className={styles.home}>
                     <h3 className={styles.links}>Home</h3>
                 </a>
-                <a href = "section2"  className={styles.about}>
+                <a href = "sec2"  className={styles.about}>
                     <h3 className={styles.links}>About</h3>
                 </a>
-                <a href = "section3"  className={styles.projects}>
+                <a href = "sec3"  className={styles.projects}>
                     <h3 className={styles.links}>Projects</h3>
                 </a>
-                <a href = "section4"  className={styles.contact}>
+                <a href = "sec4"  className={styles.contact}>
                     <h3 className={styles.links}>Contact me</h3>
                 </a>
             </div>

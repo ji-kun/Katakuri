@@ -132,7 +132,25 @@
     font-size: 18px;
     font-weight: normal;
 }
-
+.resume{
+    position: absolute;
+    width: 420px;
+    height: 75px;
+    left: 800px;
+    bottom: 65px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 22px;
+    background: #F065A7;
+    box-shadow: 4px 7px 10px rgba(181, 0, 86, 0.25);
+    border-radius: 3px;
+}
+.resume:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+}
 
 @keyframes rotate {
     100% {

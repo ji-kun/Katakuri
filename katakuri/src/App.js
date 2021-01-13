@@ -22,16 +22,16 @@ function App() {
       return (
         <ReactFullpage.Wrapper>
           {/* <Header /> */}
-          <div className="section">
+          <div className="section sec1">
             <Home />
           </div>
-          <div className="section">
+          <div className="section sec2">
             <About />
           </div>
-          <div className="section">
+          <div className="section sec3">
             <Projects />
           </div>
-          <div className="section">
+          <div className="section sec4">
             <Contact />
           </div>
           {/* <Footer /> */}

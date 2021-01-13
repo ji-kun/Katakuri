@@ -28,9 +28,11 @@ function Home() {
                 <div className={styles.textContain}><h3 className={styles.text}>
                     A hardworking individual and an aspiring UI/UX developer with unique analytical and problem solving skills, approaching every task with a happy positive attitude to do my best work, always . I am skilled in MERN Stack and Blockchain development, as well.
                 </h3></div>
-                <div className={styles.resume}>
-                    Download Resume
-                </div>
+                <a href="../assets/cv-yellow.pdf" download>
+                    <div className={styles.resume}>
+                        Download Resume
+                    </div>
+                </a>
             </div>
             <Footer />
         </div>
